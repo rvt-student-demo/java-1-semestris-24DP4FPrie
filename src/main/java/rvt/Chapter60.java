@@ -1,3 +1,4 @@
+package rvt;
 public class Chapter60 {
     public static void main(String[] args) {
         ex1();

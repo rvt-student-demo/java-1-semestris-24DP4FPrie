@@ -1,3 +1,4 @@
+package rvt;
 public class TwoArrays {
     public static void main ( String[] args )
   {
