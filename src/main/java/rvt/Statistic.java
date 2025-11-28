@@ -3,21 +3,16 @@ import java.util.Scanner;
 
 public class Statistic {
 
-    // -----------------------------
-    // The Statistics class (as given)
-    // -----------------------------
     public static class Statistics {
         private int count;
         private int sum;
 
         public Statistics() {
-            // initialize the variables count and sum here
             this.count = 0;
             this.sum = 0;
         }
 
         public void addNumber(int number) {
-            // write code here
             this.count++;
             this.sum += number;
         }
@@ -41,14 +36,10 @@ public class Statistic {
         }
     }
 
-    // -----------------------------
-    // Main program for ALL tasks
-    // -----------------------------
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Must be created in this order:
         Statistics allNumbers = new Statistics();
         Statistics evenNumbers = new Statistics();
         Statistics oddNumbers = new Statistics();
@@ -71,7 +62,6 @@ public class Statistic {
             }
         }
 
-        // Output results
         System.out.println("Sum: " + allNumbers.sum());
         System.out.println("Sum of even numbers: " + evenNumbers.sum());
         System.out.println("Sum of odd numbers: " + oddNumbers.sum());
